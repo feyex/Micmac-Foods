@@ -403,10 +403,19 @@ http://www.templatemo.com/tm-509-hydro
   }
 
   .skill-thumb .progress-bar {
-    background: #1f1f1f;
+    /* background: #384fd3; */
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343,#d40101);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #d40101); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     box-shadow: none;
   }
 
+  .responsive{
+    padding-top: 7rem;
+    display: block;
+    max-width: 100%;
+    height: 266px;
+  }
 
 
   /*---------------------------------------
