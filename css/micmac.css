@@ -411,12 +411,13 @@ http://www.templatemo.com/tm-509-hydro
   }
 
   .responsive{
-    padding-top: 7rem;
+    padding-top: 5rem;
     display: block;
     max-width: 100%;
-    height: 266px;
+    height: 272px;
   }
 
+  
 
   /*---------------------------------------
       WORK             
@@ -489,6 +490,11 @@ http://www.templatemo.com/tm-509-hydro
     opacity: 1;
   }
 
+  .img-res{
+    display: block;
+    max-width: 100%;      
+    height: 264px;
+  }
 
 
   /*---------------------------------------
@@ -635,7 +641,12 @@ http://www.templatemo.com/tm-509-hydro
     font-size: 18px;
   }
 
-
+  .responsives{
+    display: block;
+    max-width: 100%;
+    height: 300px;
+    padding-top: 7rem;
+  }
 
   /*---------------------------------------
       CONTACTS             
@@ -643,8 +654,8 @@ http://www.templatemo.com/tm-509-hydro
 
   #contact {
     background: #AD4005;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0575E6, #AD4005);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0575E6, #AD4005); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #CE3232CC,#0E1107CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CE3232CC,#0E1107CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
   #contact .section-title h2 {
